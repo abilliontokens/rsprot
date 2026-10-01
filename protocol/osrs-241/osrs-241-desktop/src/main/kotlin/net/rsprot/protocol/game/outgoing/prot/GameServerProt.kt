@@ -104,6 +104,7 @@ public enum class GameServerProt(
     // Varp packets
     VARP_SMALL(GameServerProtId.VARP_SMALL, 3),
     VARP_LARGE(GameServerProtId.VARP_LARGE, 6),
+    VARP_LONG(GameServerProtId.VARP_LONG, 10),
     VARP_RESET(GameServerProtId.VARP_RESET, 0),
     VARP_SYNC(GameServerProtId.VARP_SYNC, 0),
 

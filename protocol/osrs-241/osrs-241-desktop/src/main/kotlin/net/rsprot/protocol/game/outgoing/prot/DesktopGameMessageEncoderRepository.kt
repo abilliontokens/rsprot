@@ -131,6 +131,7 @@ import net.rsprot.protocol.game.outgoing.codec.specific.ObjUncustomiseSpecificEn
 import net.rsprot.protocol.game.outgoing.codec.specific.PlayerSpotAnimSpecificEncoder
 import net.rsprot.protocol.game.outgoing.codec.specific.ProjAnimSpecificV4Encoder
 import net.rsprot.protocol.game.outgoing.codec.varp.VarpLargeEncoder
+import net.rsprot.protocol.game.outgoing.codec.varp.VarpLongEncoder
 import net.rsprot.protocol.game.outgoing.codec.varp.VarpResetEncoder
 import net.rsprot.protocol.game.outgoing.codec.varp.VarpSmallEncoder
 import net.rsprot.protocol.game.outgoing.codec.varp.VarpSyncEncoder
@@ -233,6 +234,7 @@ public object DesktopGameMessageEncoderRepository {
 
                 bind(VarpSmallEncoder())
                 bind(VarpLargeEncoder())
+                bind(VarpLongEncoder())
                 bind(VarpResetEncoder())
                 bind(VarpSyncEncoder())
 

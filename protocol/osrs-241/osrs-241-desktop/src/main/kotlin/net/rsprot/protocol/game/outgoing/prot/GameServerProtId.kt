@@ -127,6 +127,7 @@ internal object GameServerProtId {
     const val REFLECTION_CHECKER = 35
     const val UPDATE_ZONE_FULL_FOLLOWS = 68
     const val VARP_SMALL = 21
+    const val VARP_LONG = 24
     const val CAM_ROTATETO_COORDINATE_V3 = 149
     const val UNHANDLED = 142
     const val CAM_MOVETO_CYCLES_V3 = 132
